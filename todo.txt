@@ -9,5 +9,7 @@ Try to interpret meanings of latent factors, for fun
 Create a useful interface:
     deploy on web somehow?
     use a gnoosic-style interface? How to give recommendations to people not in data?
+        have to use optimization to create a new latent user vector for them, on the fly, if I don't want to update the existing decomposition
+            see: https://stats.stackexchange.com/questions/320962/matrix-factorization-in-recommender-systems-adding-a-new-user
     add options for filtering based on grade, rating, trad vs sport, etc?
 Write up some blog posts explaining everything

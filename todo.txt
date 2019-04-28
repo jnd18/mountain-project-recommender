@@ -1,15 +1,10 @@
 Todo:
 Figure out how to scrape mountain project ratings data
-Look into differences between svd and nmf style factorizations
-Implement a simple matrix factorization algorithm using sgd
-    pytorch's auto grad would remove the need for certain derivations, but I might use numpy instead of learning pytorch
 Try out simple algorithm on synthetic or benchmark data
 Run algo on climbing data
 Try to interpret meanings of latent factors, for fun
 Create a useful interface:
     deploy on web somehow?
-    use a gnoosic-style interface? How to give recommendations to people not in data?
-        have to use optimization to create a new latent user vector for them, on the fly, if I don't want to update the existing decomposition
-            see: https://stats.stackexchange.com/questions/320962/matrix-factorization-in-recommender-systems-adding-a-new-user
     add options for filtering based on grade, rating, trad vs sport, etc?
-Write up some blog posts explaining everything
+use the surprise package and the large movielens data set to create a high quality recommender for fun
+    include good features like search for movie by name
